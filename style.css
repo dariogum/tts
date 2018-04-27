@@ -1,0 +1,83 @@
+html {
+	background: #EAE7DC;
+	font-family: 'Quicksand', sans-serif;
+}
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+.ttsForm {
+	font-size: 1.75em;
+	line-height: 2em;
+	padding: 2.5em 0 0;
+}
+.column {
+    box-sizing: border-box;
+	float: left;
+	margin: 1em 0;
+	padding: 0 2em;
+	width: 50%;
+}
+.ttsForm input, .ttsForm select {
+	background: none;
+	border: none;
+	border-bottom: 2px dashed #E98074;
+	box-sizing: border-box;
+	color: #E85A4F;
+    max-width: 100%;
+	padding: 0 0 .1em;
+	text-align: center;
+}
+.textToSpeak {
+	border-bottom: 2px dashed #E98074;
+	color: #E85A4F;
+}
+.buttons {
+	text-align: center;
+}
+.ttsForm button {
+	background: none;
+	border: none;
+	border-bottom: 2px solid #D8C3A5;
+	font-size: .5em;
+	font-weight: bold;
+	min-height: 44px;
+	min-width: 100px;
+	text-transform: uppercase;
+}
+.ttsForm .feedback {
+	background: #EAE7DC;
+	border: none;
+	border-bottom: 2px solid #D8C3A5;
+	font-size: 0.5em;
+	line-height: 1em;
+	left: 0;
+	padding: 1em;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+.ttsForm .warning {
+    background: #D8C3A5;
+}
+.ttsForm .error {
+	background: #E98074;
+}
+footer {
+	color: #E85A4F;
+	font-weight: bold;
+	margin: 3em 0 0;
+	text-align: center;
+}
+@media (max-width: 599px) {
+	.ttsForm {
+		padding: 1em;
+		text-align: center;
+	}
+	.column {
+		padding: 0 1em;
+		width: 100%;
+	}
+}
